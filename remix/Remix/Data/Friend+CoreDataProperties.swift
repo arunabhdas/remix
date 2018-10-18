@@ -14,7 +14,7 @@ import CoreData
 extension Friend {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Friend> {
-        return NSFetchRequest<Friend>(entityName: "User")
+        return NSFetchRequest<Friend>(entityName: "Friend")
     }
 
     @NSManaged public var name: String?
