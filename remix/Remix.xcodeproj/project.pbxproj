@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC850EAF2178C55B00CC7FFA /* Remix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC850EAD2178C55B00CC7FFA /* Remix.xcdatamodeld */; };
 		DD6B333C1F56DAD800F4C248 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B333B1F56DAD800F4C248 /* PetsViewController.swift */; };
 		DD6B33401F56E05F00F4C248 /* FriendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B333F1F56E05F00F4C248 /* FriendData.swift */; };
 		DD6B33421F56E1A900F4C248 /* PetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B33411F56E1A900F4C248 /* PetData.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC850EAE2178C55B00CC7FFA /* Remix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Remix.xcdatamodel; sourceTree = "<group>"; };
 		DD6B333B1F56DAD800F4C248 /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
 		DD6B333F1F56E05F00F4C248 /* FriendData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendData.swift; sourceTree = "<group>"; };
 		DD6B33411F56E1A900F4C248 /* PetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetData.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				DD952D681F56D8AA00AF81B8 /* Main.storyboard */,
 				DD952D6B1F56D8AA00AF81B8 /* Assets.xcassets */,
 				DD952D6D1F56D8AA00AF81B8 /* LaunchScreen.storyboard */,
+				DC850EAD2178C55B00CC7FFA /* Remix.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				DD6B33441F56EC2400F4C248 /* FriendCell.swift in Sources */,
 				DD6B333C1F56DAD800F4C248 /* PetsViewController.swift in Sources */,
 				DD719FFB1F578F96008392C8 /* Array+Extensions.swift in Sources */,
+				DC850EAF2178C55B00CC7FFA /* Remix.xcdatamodeld in Sources */,
 				DD952D651F56D8AA00AF81B8 /* AppDelegate.swift in Sources */,
 				DDB438961F579FDB0078BBAD /* Int+Extension.swift in Sources */,
 				DD6B33461F56EC3300F4C248 /* PetCell.swift in Sources */,
@@ -399,6 +403,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC850EAD2178C55B00CC7FFA /* Remix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC850EAE2178C55B00CC7FFA /* Remix.xcdatamodel */,
+			);
+			currentVersion = DC850EAE2178C55B00CC7FFA /* Remix.xcdatamodel */;
+			path = Remix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DD952D591F56D8AA00AF81B8 /* Project object */;
 }
