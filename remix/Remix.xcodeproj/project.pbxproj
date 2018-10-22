@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DC850EAF2178C55B00CC7FFA /* Remix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC850EAD2178C55B00CC7FFA /* Remix.xcdatamodeld */; };
 		DC850EB22178CA5B00CC7FFA /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC850EB02178CA5B00CC7FFA /* Friend+CoreDataClass.swift */; };
-		DC850EB32178CA5B00CC7FFA /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC850EB12178CA5B00CC7FFA /* Friend+CoreDataProperties.swift */; };
+		DC8E58BB217E166100E672C2 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E58BA217E166100E672C2 /* Friend+CoreDataProperties.swift */; };
 		DD6B333C1F56DAD800F4C248 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B333B1F56DAD800F4C248 /* PetsViewController.swift */; };
 		DD6B33401F56E05F00F4C248 /* FriendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B333F1F56E05F00F4C248 /* FriendData.swift */; };
 		DD6B33421F56E1A900F4C248 /* PetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B33411F56E1A900F4C248 /* PetData.swift */; };
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		DC850EAE2178C55B00CC7FFA /* Remix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Remix.xcdatamodel; sourceTree = "<group>"; };
 		DC850EB02178CA5B00CC7FFA /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
-		DC850EB12178CA5B00CC7FFA /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DC8E58BA217E166100E672C2 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DD6B333B1F56DAD800F4C248 /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
 		DD6B333F1F56E05F00F4C248 /* FriendData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendData.swift; sourceTree = "<group>"; };
 		DD6B33411F56E1A900F4C248 /* PetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetData.swift; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				DC850EB02178CA5B00CC7FFA /* Friend+CoreDataClass.swift */,
-				DC850EB12178CA5B00CC7FFA /* Friend+CoreDataProperties.swift */,
+				DC8E58BA217E166100E672C2 /* Friend+CoreDataProperties.swift */,
 				DD6B333F1F56E05F00F4C248 /* FriendData.swift */,
 				DD6B33411F56E1A900F4C248 /* PetData.swift */,
 			);
@@ -215,7 +215,7 @@
 				DD6B33441F56EC2400F4C248 /* FriendCell.swift in Sources */,
 				DD6B333C1F56DAD800F4C248 /* PetsViewController.swift in Sources */,
 				DD719FFB1F578F96008392C8 /* Array+Extensions.swift in Sources */,
-				DC850EB32178CA5B00CC7FFA /* Friend+CoreDataProperties.swift in Sources */,
+				DC8E58BB217E166100E672C2 /* Friend+CoreDataProperties.swift in Sources */,
 				DC850EAF2178C55B00CC7FFA /* Remix.xcdatamodeld in Sources */,
 				DD952D651F56D8AA00AF81B8 /* AppDelegate.swift in Sources */,
 				DDB438961F579FDB0078BBAD /* Int+Extension.swift in Sources */,

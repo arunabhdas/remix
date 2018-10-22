@@ -2,7 +2,7 @@
 //  Friend+CoreDataProperties.swift
 //  Remix
 //
-//  Created by coder on 10/18/18.
+//  Created by coder on 10/22/18.
 //  Copyright © 2018 arunabhdas. All rights reserved.
 //
 //
@@ -18,5 +18,6 @@ extension Friend {
     }
 
     @NSManaged public var name: String?
+    @NSManaged public var address: String?
 
 }
